@@ -1,0 +1,3 @@
+GetDOMs();
+AddTemplates();
+AddTemplateMouseEvent();

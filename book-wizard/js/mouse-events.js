@@ -12,15 +12,20 @@ function AddTemplateMouseEvent() {
 		if (Selected == undefined || Selected == null) return;
 		document.getElementById('wrapper1').style.display = 'none';
 		document.getElementById('wrapper2').style.display = 'block';
+		LoadTemplate();
 	});
 	document.getElementById('input-fields-wrapper-bottom').addEventListener('click', function() {
-		DOMInputFieldsWrapperBody.innerHTML += "<div class='input-row'><div class='input-cell-l'><input class='json-input' name='property' type='text' /></div><div class='input-cell-r'><input class='json-input' name='value' type='text' /></div></div>"
+		var newdiv = document.createElement('div');
+		newdiv.setAttribute('class', 'input-row property-holder');
+		newdiv.innerHTML = "<div class='input-cell-l'><input class='json-input' name='property' type='text' /></div><div class='input-cell-r'><input class='json-input' name='value' type='text' /></div>";
+		DOMInputFieldsWrapperBody.appendChild(newdiv);
 	});
 	document.getElementById('generate-button').addEventListener('click', function() {
-		let jsons = [];
-		let fields = document.getElementsByClassName('input-row');
-		for (let field in fields) {
-
+		var jsons = [];
+		let fields = document.getElementsByClassName('property-holder');
+		for (let i = 0; i < fields.length; i++) {
+			if (fields[i].children[0].children[0].value != "" && fields[i].children[1].children[0].value != "")
+				jsons[fields[i].children[0].children[0].value] = fields[i].children[1].children[0].value;
 		}
 	});
 }

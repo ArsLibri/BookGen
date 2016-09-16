@@ -6,17 +6,27 @@
         <title>Book Generator</title>
         <link rel='stylesheet' type='text/css' href='css/fonts.css'>
         <link rel='stylesheet' type='text/css' href='css/main.css'>
-        <link rel='stylesheet' type='text/css' href='css/toolbar-styles.css'>
+        <link rel='stylesheet' type='text/css' href='css/side-bar.css'>
+        <link rel='stylesheet' type='text/css' href='css/books.css'>
     </head>
 
     <body>
         <div id='wrapper'>
-            <div id='toolbar'>
-                <div class='toolbar-button' id='toolbar-newbook' title='Create a new book'><img class='toolbar-button-icon' src='res/file.svg' /></div>
+            <div id='side-bar'>
+                <div id='side-bar-books' class='side-bar-item'>Cărți</div>
+                <div id='side-bar-info' class='side-bar-item'>Despre</div>
+            </div>
+            <div id='books'>
+                <div id='recent-books'>
+                    <div id='recent-books-head'>Proiecte Recent Deschise</div>
+                </div>
             </div>
         </div>
+        <script src='js/book-opener.js'></script>
         <script src='js/keyboard-events.js'></script>
-        <script src='js/toolbar-scripts.js'></script>
+        <script src='js/mouse-events.js'></script>
+        <script src='js/recent-books.js'></script>
+        <script src='js/finisher.js'></script>
     </body>
 
 </html>

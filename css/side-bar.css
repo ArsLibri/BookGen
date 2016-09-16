@@ -1,0 +1,35 @@
+#side-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    background: #3c47ad;
+    box-shadow: 0 0 5px #1a1b1c;
+    z-index: 16;
+}
+
+.side-bar-item {
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    cursor: pointer;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 64px 64px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 120px;
+}
+
+.side-bar-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#side-bar-books {
+    background-image: url('../res/book64.png');
+}
+
+#side-bar-info {
+    background-image: url('../res/info64.png');
+}

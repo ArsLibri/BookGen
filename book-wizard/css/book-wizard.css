@@ -8,7 +8,7 @@
     -ms-user-select: none;
 }
 
-#wrapper1, #wrapper2 {
+#wrapper1, #wrapper2, #wrapper3 {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@
     font-size: 0;
 }
 
-#wrapper2 {
+#wrapper2, #wrapper3 {
     display: none;
 }
 

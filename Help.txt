@@ -1,0 +1,7 @@
+Properietati utilizate:
+
+##nume - numele cartii, afisat in coltul din stanga sus al suportului electronic
+##pagini - numarul de pagini, afisat in coltul din dreapta jos al suportului electronic si folosit pentru limitarea numarului de pagini afisate (IMPORTANT)
+##latime - latimea in PIXELI a unei imagini de fundal. aspectul web al cartii va fi definit de aceasta properietate
+##inaltime - inaltimea in PIXELI a unei imagini de fundal. aspectul web al cartii va fi definit de aceasta proprietate
+##dezactiveaza-modul-pagina-dubla - adevarat : dezactiveaza afisarea a doua pagini in acealsi timp, fals : activeaza afisarea a doua pagini in acelasi timp (cand exista suficient spatiu)

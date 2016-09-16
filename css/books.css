@@ -1,0 +1,34 @@
+#books {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+#recent-books {
+    margin: 20px 80px;
+}
+
+#recent-books-head {}
+
+.recent-books-item {
+    background-image: url('../res/folder16.png');
+    background-size: 16px 16px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    color: #9A9A9A;
+    cursor: pointer;
+    border-bottom: solid 1px #EAEAEA;
+}
+
+.recent-books-name {
+    color: #1a1b1c;
+    margin-right: 16px;
+}
+
+.recent-books-item:hover {
+    border-color: #9a9a9a;
+}

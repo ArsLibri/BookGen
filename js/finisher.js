@@ -1,0 +1,3 @@
+addMouseEvents();
+addKeyboardEvents();
+loadRecentBooks();

@@ -1,3 +1,5 @@
-document.addEventListener('keydown', function(e) {
-	switch (e.keyCode) {}
-});
+function addKeyboardEvents() {
+	document.addEventListener('keydown', function(e) {
+		switch (e.keyCode) {}
+	});
+}

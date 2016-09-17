@@ -27,5 +27,11 @@ function AddTemplateMouseEvent() {
 			if (fields[i].children[0].children[0].value != "" && fields[i].children[1].children[0].value != "")
 				jsons[fields[i].children[0].children[0].value] = fields[i].children[1].children[0].value;
 		}
+		const {
+			dialog
+		} = require('electron').remote;
+		console.log(dialog.showOpenDialog({
+			properties: ['openFile', 'openDirectory', 'multiSelections']
+		}))
 	});
 }

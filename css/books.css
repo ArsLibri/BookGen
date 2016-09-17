@@ -11,8 +11,6 @@
     margin: 20px 80px;
 }
 
-#recent-books-head {}
-
 .recent-books-item {
     background-image: url('../res/folder16.png');
     background-size: 16px 16px;
@@ -31,4 +29,17 @@
 
 .recent-books-item:hover {
     border-color: #9a9a9a;
+}
+
+#recent-books-new {
+    margin: 20px 80px;
+    background-color: #EAEAEA;
+    border: solid 1px #AEAEAE;
+    text-align: center;
+    transition: box-shadow 0.25s;
+    cursor: pointer;
+}
+
+#recent-books-new:hover {
+    box-shadow: 0 0 4px #1a1b1c;
 }

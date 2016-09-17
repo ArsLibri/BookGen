@@ -88,7 +88,7 @@ div.book-template-toolbar-element:hover {
     position: absolute;
     top: 25px;
     left: 25px;
-    bottom: 125px;
+    bottom: 200px;
     right: 25px;
     background: #EAEAEA;
     border: solid 1px #AEAEAE;
@@ -96,6 +96,7 @@ div.book-template-toolbar-element:hover {
     background-position: center center;
     background-size: 288px 52px;
     background-repeat: no-repeat;
+    overflow-y: auto;
 }
 
 #input-fields-wrapper-tip {
@@ -116,7 +117,7 @@ div.book-template-toolbar-element:hover {
 
 #wrapper2-note {
     position: absolute;
-    bottom: 85px;
+    bottom: 160px;
     left: 25px;
     right: 25px;
     height: 40px;
@@ -190,6 +191,27 @@ div.input-cell-l {
 
 .json-input:focus {
     background: #f4dd8b;
+}
+
+#generate-options {
+    position: absolute;
+    bottom: 85px;
+    left: 25px;
+    right: 25px;
+    height: 14px;
+}
+
+#generate-options-create-folder {
+    font-size: 14px;
+}
+
+#generate-options-create-folder>input {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: transparent;
+    outline: 0;
+    border: solid 1px #AEAEAE;
 }
 
 #generate-button {

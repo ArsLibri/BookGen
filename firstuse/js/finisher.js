@@ -1,0 +1,2 @@
+InitDots();
+InitContent();

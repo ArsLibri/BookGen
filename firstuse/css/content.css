@@ -1,0 +1,56 @@
+#content {
+    padding: 64px 32px;
+}
+
+#hello {
+    font-size: 24px;
+    text-align: center;
+}
+
+#hello>p {
+    margin-bottom: 8px;
+}
+
+#hello-button {
+    margin-top: 128px;
+}
+
+#working-directory {
+    font-size: 24px;
+    display: none;
+    text-align: center;
+}
+
+#working-directory-input {
+    background: #FFFFFF;
+    padding: 10.5px;
+    margin: 0;
+    margin-top: 128px;
+    margin-bottom: 32px;
+    border: 0;
+    outline: 0;
+    width: 80%;
+    font-size: 24px;
+    border: 1px solid #878787;
+    border-radius: 6px;
+}
+
+#theme {
+    display: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+#theme-next {
+    margin-top: 128px;
+}
+
+#get-started {
+    display: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+#get-started-finish {
+    margin-top: 128px;
+}

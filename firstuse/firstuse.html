@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset='utf8'>
+        <link rel='stylesheet' type='text/css' href='css/app.css'>
+        <link rel='stylesheet' type='text/css' href='css/title.css'>
+        <link rel='stylesheet' type='text/css' href='css/content.css'>
+        <link rel='stylesheet' type='text/css' href='../fonts/fonts.css'>
+        <script src='js/progress-bar.js'></script>
+        <script src='js/content.js'></script>
+    </head>
+
+    <body>
+        <div id='app'>
+            <div id='title'>
+                <p>Installation</p>
+            </div>
+            <div id='progress-bar'>
+                <div id='progress-bar-line'></div>
+                <ul id='progress-bar-steps'>
+                    <li id='progress-bar-hello'>
+                        <p>Hello</p>
+                    </li>
+                    <li id='progress-bar-working-directory'>
+                        <p>Working Directory</p>
+                    </li>
+                    <li id='progress-bar-theme'>
+                        <p>Theme</p>
+                    </li>
+                    <li id='progress-bar-get-started'>
+                        <p>Get Started</p>
+                    </li>
+                </ul>
+            </div>
+            <div id='content'>
+                <div id='hello'>
+                    <p style='font-size:36px;'>Welcome to Book Generator</p>
+                    <p>We'll take you through a few steps to set up the main application preferences.</p>
+                    <p>These can always be changed later.</p>
+                    <button type='button' id='hello-button'>Begin</button>
+                </div>
+                <div id='working-directory'>
+                    <p>Please select the folder in which you wish to save your projects.</p>
+                    <p>Any project can be saved in to a different location but it will not be listed on the project list.</p>
+                    <input id='working-directory-input' type='text'></br>
+                    <button id='working-directory-browse' type='button'>Browse</button>
+                    <button id='working-directory-next' enabled='false' type='button'>Next</button>
+                </div>
+                <div id='theme'>
+                    <p style='font-size:36px;'>This feature is not yet implemented.</p>
+                    <p>We'll just stick to the light theme.</p>
+                    <button type='button' id='theme-next'>Ok</button>
+                </div>
+                <div id='get-started'>
+                    <p>This section will contain links and information about using this application.</p>
+                    <button type='button' id='get-started-finish'>Finish</button>
+                </div>
+            </div>
+        </div>
+        <script src='js/finisher.js'></script>
+    </body>
+
+</html>

@@ -1,0 +1,2 @@
+#!/bin/sh
+lessc app/css/main.less app/css/main.css

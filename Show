@@ -1,2 +1,4 @@
 #!/bin/sh
+lessc app/css/main.less app/css/main.css
+echo "Compiled less"
 /home/callcenter1/Desktop/Electron/electron /home/callcenter1/BookGenerator
